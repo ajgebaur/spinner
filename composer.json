@@ -1,0 +1,14 @@
+{
+    "name": "wheelizate-tabs",
+    "description": "Wheelizate tabs integration",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kirsten Larsen",
+            "email": "webmaster@hrockchurch.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

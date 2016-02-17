@@ -1,0 +1,51 @@
+[class*=wtab-selected] {
+  background-color: #ffffff;
+  border-width: 0;
+}
+[class|=wheelnav-wheel-line-basic] {
+  stroke: #c54343;
+  stroke-width: 1px;
+}
+[class|=wheelnav-wheel-line-hover],
+[class|=wheelnav-wheel-line-selected] {
+  stroke: #a13232;
+  stroke-width: 1px;
+}
+[class|=wheelnav-wheel-slice-basic] {
+  fill: #c54343;
+  stroke: #c54343;
+  stroke-width: 1px;
+}
+[class|=wheelnav-wheel-slice-hover] {
+  fill: #a13232;
+  cursor: pointer;
+  stroke: #a13232;
+  stroke-width: 1px;
+}
+[class|=wheelnav-wheel-slice-selected] {
+  fill: #a13232;
+  stroke: #a13232;
+  stroke-width: 1px;
+}
+[class|=wheelnav-wheel-title] > tspan {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+[class|=wheelnav-wheel-title-basic] {
+  fill: #111111;
+  stroke: #111111;
+}
+[class|=wheelnav-wheel-title-hover] {
+  fill: #ffffff;
+  stroke: #ffffff;
+  cursor: pointer;
+}
+[class|=wheelnav-wheel-title-selected] {
+  fill: #ffffff;
+  stroke: #ffffff;
+}
+.wheelnav-wheel-marker {
+  stroke: #a13232;
+  stroke-width: 2px;
+}
+/*# sourceMappingURL=theme.css.map */

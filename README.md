@@ -1,2 +1,2 @@
-# wheelnav
-Wheel navigtion tabs
+# wheelnav-tabs
+Adding Spinning tab functionality to Wordpress
