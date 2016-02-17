@@ -87,6 +87,8 @@ function whtbsscripts_page_front() {
     wp_enqueue_style('whtbscss-color');  
     wp_enqueue_script('whtbsjs-icons1');
     wp_enqueue_script('whtbsjs-icons2');
+    wp_enqueue_script('whtbsjs-wheelnav');
+    wp_enqueue_script('whtbsjs-wheeltabs');
 }
 
 // STYLE + SCRIPT 
