@@ -6,7 +6,7 @@
   border-width: 0;
 }
 [class|=wheelnav-wheel-line-basic] {
-  stroke: #c54343;
+  stroke: #B61215;
   stroke-width: 1px;
 }
 [class|=wheelnav-wheel-line-hover],
@@ -15,8 +15,8 @@
   stroke-width: 1px;
 }
 [class|=wheelnav-wheel-slice-basic] {
-  fill: #c54343;
-  stroke: #c54343;
+  fill: #B61215;
+  stroke: #B61215;
   stroke-width: 1px;
 }
 [class|=wheelnav-wheel-slice-hover] {
