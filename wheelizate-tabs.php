@@ -53,7 +53,7 @@ function whtbsregister_scripts() {
     // Register scripts and styles
     $version = get_option('wheelizate-tabs')['info']['version'];
 
-    //wp_register_style('whtbscss-core', plugins_url('/css/wheelizate.tab.min.css', __FILE__), array(), $version);
+    wp_register_style('whtbscss-core', plugins_url('/css/wheelizate.tab.min.css', __FILE__), array(), $version);
     //wp_register_style('whtbscss-color', plugins_url('/css//theme.min.css', __FILE__), array(), $version);
 
     wp_register_script('whtbsjs-icons1', plugins_url('/js/raphael.min.js', __FILE__), array(), $version);
@@ -70,7 +70,7 @@ function whtbsscripts_page_front() {
 
 
     // Scripts & Style 
-    //wp_enqueue_style('whtbscss-core');
+    wp_enqueue_style('whtbscss-core');
     //wp_enqueue_style('whtbscss-color');  
 
     wp_enqueue_script('whtbsjs-icons1');
@@ -82,7 +82,7 @@ function whtbsscripts_page_front() {
 // STYLE + SCRIPT 
 function whtbsscripts_page_wheelizatetabs() {
 
-    //wp_enqueue_style('whtbscss-core');
+    wp_enqueue_style('whtbscss-core');
     //wp_enqueue_style('whtbscss-color');
 
     wp_enqueue_script('whtbsjs-icons1');
