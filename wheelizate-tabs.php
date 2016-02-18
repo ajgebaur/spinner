@@ -3,7 +3,7 @@
  * Plugin Name: Wheel Tabs
  * Plugin URI: http://codecanyon.net/item/wheelizate-tabs/9571519
  * Description: Using Wheelizate Tabs.
- * Version: 1.6.2
+ * Version: 1.6.3
  * Author: Kirsten Larsen
  * Author URI: 
  * License: GPL2
@@ -25,7 +25,7 @@ function whtbs_activation() {
 
     $wheelizate = array(
         'info'          => array(
-                            'version'       => '1.6.2',
+                            'version'       => '1.6.3',
                             'author'        => 'Kirsten',
                             'description'   => 'WheelTabs for wordpress' )
     );
