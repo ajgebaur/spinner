@@ -3,7 +3,7 @@
  * Plugin Name: Wheel Tabs
  * Plugin URI: http://codecanyon.net/item/wheelizate-tabs/9571519
  * Description: Using Wheelizate Tabs.
- * Version: 1.6.1
+ * Version: 1.6.2
  * Author: Kirsten Larsen
  * Author URI: 
  * License: GPL2
@@ -12,8 +12,7 @@
 
 /**
  * CHECK FIRST!
- *  + Kiem tra plugin co chay trong wordpress -> kiem tra bien wpinc
- *  + Kiem tra wordpress co upgrading hay khong -> loai bo rubytabs loading
+ *  + 
  */
 if( !defined('WPINC') ) die();
 if( defined('WP_INSTALLING') && WP_INSTALLING ) return;
@@ -30,15 +29,15 @@ if( defined('WP_INSTALLING') && WP_INSTALLING ) return;
 /* ACTIVED */
 function whtbs_activation() {
 
-    $rubytabs = array(
+    $wheelizate = array(
         'info'          => array(
-                            'version'       => '1.6.1',
+                            'version'       => '1.6.2',
                             'author'        => 'Kirsten',
                             'description'   => 'WheelTabs for wordpress' )
     );
 
-    // DANG KI HOAC CAP NHAT OPTIONS CHINH RUBYTABS
-    update_option('rubytabs', $rubytabs, true);
+    // DANG KI HOAC CAP NHAT OPTIONS CHINH wheelizate
+    update_option('wheelizate', $wheelizate, true);
 }
 
 /* DEACTIVED */
