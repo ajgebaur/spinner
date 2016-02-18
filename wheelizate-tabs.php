@@ -17,14 +17,8 @@
 if( !defined('WPINC') ) die();
 if( defined('WP_INSTALLING') && WP_INSTALLING ) return;
 
-
-
-
-
-
-
 /**
- * DANG KI VA LOAI BO PLUGIN
+ * 
  */
 /* ACTIVED */
 function whtbs_activation() {
@@ -36,25 +30,19 @@ function whtbs_activation() {
                             'description'   => 'WheelTabs for wordpress' )
     );
 
-    // DANG KI HOAC CAP NHAT OPTIONS CHINH wheelizate
-    update_option('wheelizate', $wheelizate, true);
+    //update wheelizate
+    //update_option('wheelizate', $wheelizate, true);
 }
 
 /* DEACTIVED */
 function whtbs_deactivation() {
 
     // Xoa options
-    delete_option('wheelizate-tabs');
+    delete_option('wheelizate');
 }
 
 register_activation_hook(__FILE__, 'whtbs_activation');
 register_deactivation_hook(__FILE__, 'whtbs_deactivation');
-
-
-
-
-
-
 
 
 /**
