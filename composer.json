@@ -1,6 +1,6 @@
 {
-    "name": "wheelizate-tabs",
-    "description": "Wheelizate tabs integration",
+    "name": "spinner-tabs",
+    "description": "Spinning tabs integration",
     "type": "wordpress-plugin",
     "license": "MIT",
     "authors": [
