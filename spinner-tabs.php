@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Wheel Tabs
+ * Plugin Name: Spinner Tabs
  * Plugin URI: http://codecanyon.net/item/wheelizate-tabs/9571519
  * Description: Using Wheelizate Tabs.
  * Version: 1.6.3
@@ -27,7 +27,7 @@ function whtbs_activation() {
         'info'          => array(
                             'version'       => '1.6.3',
                             'author'        => 'Kirsten',
-                            'description'   => 'WheelTabs for wordpress' )
+                            'description'   => 'Spinner Tabs for wordpress' )
     );
 
     //update wheelizate
